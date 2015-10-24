@@ -2,7 +2,8 @@
 This project is developed for Getting and Cleaning Data course project based on the data collected for a Internet of Things project. The data used in this project was collected from the accelerometer from the Samsung Galaxy S smartphone.
 
 ### Objective
-The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare the tidy data that can be used for later analysis. For this project, I have submitted this:
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare the tidy data that can be used for later analysis. For this project, I have submitted this: </br>
+
 1. a Tidy data set
 2. a link to a Github repository with the script for performing the analysis
 3. a code book that describes the variables, the data, and transformations performed to clean up the data
