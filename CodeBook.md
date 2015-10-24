@@ -9,16 +9,16 @@ This dataset was built using the experiments carried out with a group of 30 volu
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 The description of each data files in the dateset: </br>
-1.  features_info.txt - Shows information about the variables used on the feature vector
-2.  features.txt - List of all features 
-3.  activity_labels.txt - Links the class labels with their activity name
-4.  train/X_train.txt - Training set
-5.  train/y_train.txt	 - Training Labels
-6.  test/X_test.txt - Test set
-7.  test/y_test.txt - Test Labels
-8.  train/subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+1.features_info.txt - Shows information about the variables used on the feature vector </br>
+2.features.txt - List of all features </br>
+3.activity_labels.txt - Links the class labels with their activity name</br>
+4.train/X_train.txt - Training set</br>
+5.train/y_train.txt	 - Training Labels</br>
+6.test/X_test.txt - Test set</br>
+7.test/y_test.txt - Test Labels</br>
+8.train/subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. </br>
 
-### Dataset transformation details
+### Dataset transformation details 
 1.  First the X_train.txt , subject_train.txt and y_train.txt data files are merged into the train_sub_activity dataframe using the cbind command.This new data frame has 563 columns.
 2.  Next, the X_test.txt, y_test.txt and subject_test.txt data files are merged into the test_sub_activity datafram using the cbind command. This new data frame has 563 columns
 3.  Next  the train_sub_activity data frame and test_sub_activity data frame are merged into a mergeddata data frame using rbind command. This frame has 10299 rows and 563 columns.
