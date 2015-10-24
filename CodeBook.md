@@ -1,15 +1,15 @@
 ###Getting & Cleaning Data Course Project CodeBook
 ### Dataset Details
--Dataset Name: Human Activity Recognition Using Smartphones DataSet version 1.0
+Dataset Name: Human Activity Recognition Using Smartphones DataSet version 1.0
 
--Dataset File Name: getdata-projectfiles-UCI HAR Dataset.zip
--Dataset Download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Dataset File Name: getdata-projectfiles-UCI HAR Dataset.zip
+</br>Dataset Download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Dataset description
 This dataset was built using the experiments carried out with a group of 30 volunteers with within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
-The description of each data files in the dateset:
+The description of each data files in the dateset: </br>
 1. features_info.txt - Shows information about the variables used on the feature vector
 2. features.txt - List of all features 
 3. activity_labels.txt - Links the class labels with their activity name
