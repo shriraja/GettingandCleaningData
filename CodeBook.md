@@ -1,8 +1,7 @@
 ###Getting & Cleaning Data Course Project CodeBook
 ### Dataset Details
 Dataset Name: Human Activity Recognition Using Smartphones DataSet version 1.0
-
-Dataset File Name: getdata-projectfiles-UCI HAR Dataset.zip
+</br>Dataset File Name: getdata-projectfiles-UCI HAR Dataset.zip
 </br>Dataset Download link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Dataset description
@@ -10,14 +9,14 @@ This dataset was built using the experiments carried out with a group of 30 volu
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 The description of each data files in the dateset: </br>
-1. features_info.txt - Shows information about the variables used on the feature vector
-2. features.txt - List of all features 
-3. activity_labels.txt - Links the class labels with their activity name
-4. train/X_train.txt - Training set
-5. train/y_train.txt	 - Training Labels
-6. test/X_test.txt - Test set
-7. test/y_test.txt - Test Labels
-8. train/subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+1.  features_info.txt - Shows information about the variables used on the feature vector
+2.  features.txt - List of all features 
+3.  activity_labels.txt - Links the class labels with their activity name
+4.  train/X_train.txt - Training set
+5.  train/y_train.txt	 - Training Labels
+6.  test/X_test.txt - Test set
+7.  test/y_test.txt - Test Labels
+8.  train/subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ### Dataset transformation details
 1.  First the X_train.txt , subject_train.txt and y_train.txt data files are merged into the train_sub_activity dataframe using the cbind command.This new data frame has 563 columns.
